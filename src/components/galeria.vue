@@ -16,7 +16,6 @@
            albumes
           </a>
            <li class="nav-item dropdown">
-            <a class="btn btn-primary" href="#" role="button">Link</a>
             <button type="button" class="btn btn-primary">crear album</button>
             -
             <button type="button" class="btn btn-primary">subir imagenes</button>
