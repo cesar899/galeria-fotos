@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <galeria></galeria>
+    <Overlay></Overlay>
+    
+    <router-view name="header" />
+      <div>
+        <router-view />
+      </div>
+    <router-view name="footer" />
   </div>
 </template>
 
 <script>
-import galeria from './components/galeria.vue'
-
+import Overlay from './components/base/overlay'
 export default {
   name: 'App',
   components: {
-    galeria
-  }
+    Overlay,
+  },
 }
 </script>
-
+<style>
+</style>
